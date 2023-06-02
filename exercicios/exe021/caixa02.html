@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;;
+        }
+
+
+        header {
+            
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(103, 95, 95);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav:hover {
+            text-decoration: underline;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(224, 214, 214);
+
+
+        }
+
+        footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+
+        footer  > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width:  100px;
+            margin: 10px;
+            background-color: antiquewhite;
+            border-radius: 50%;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Saúde Politica</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <p>Artigo escirto por Joana Carla</p>
+                </aside>
+                
+            </article>
+           
+            <article>
+                <h2>Noticias Sobre Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatum illum ipsa dicta asperiores modi doloremque adipisci perferendis similique nemo, saepe odio, amet reiciendis impedit quo ipsam hic! Molestias, totam!</p>
+                
+            </article>
+            
+        </section>
+            
+        
+        
+    </main>
+
+    <footer>
+        <p> Desenvolvido pelo curso em Video</p>
+    </footer>
+    <div id="bola"> </div>
+    
+  </body>
+</html>
